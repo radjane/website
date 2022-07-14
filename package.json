@@ -1,0 +1,45 @@
+{
+  "name": "website",
+  "description": "站点导航网站",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tiptap/extension-document": "^2.0.0-beta.17",
+    "@tiptap/extension-highlight": "^2.0.0-beta.35",
+    "@tiptap/extension-image": "^2.0.0-beta.30",
+    "@tiptap/extension-paragraph": "^2.0.0-beta.26",
+    "@tiptap/extension-table": "^2.0.0-beta.54",
+    "@tiptap/extension-task-item": "^2.0.0-beta.37",
+    "@tiptap/extension-task-list": "^2.0.0-beta.29",
+    "@tiptap/extension-text": "^2.0.0-beta.17",
+    "@tiptap/extension-typography": "^2.0.0-beta.22",
+    "@tiptap/starter-kit": "^2.0.0-beta.191",
+    "@tiptap/vue-3": "^2.0.0-beta.96",
+    "@vueuse/core": "^8.9.0",
+    "axios": "^0.27.2",
+    "flowbite": "^1.4.7",
+    "lowlight": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "process": "^0.11.10",
+    "remixicon": "^2.5.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16",
+    "vue3-avatar": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.9",
+    "vite-plugin-mock": "^2.9.6"
+  }
+}
